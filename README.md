@@ -1,6 +1,5 @@
 # jenkins-installation
 
-Copy code
 # 🚀 Install Jenkins on Ubuntu EC2 Instance (AWS)
 
 This guide walks you through installing **Jenkins** on an **Ubuntu-based EC2 instance**.
