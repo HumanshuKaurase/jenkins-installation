@@ -26,6 +26,7 @@ Replace your-key.pem and your-ec2-public-ip with your actual key and instance IP
 
 sudo apt update
 sudo apt install openjdk-11-jdk -y
+
 📦 Step 3: Install Jenkins
 
 # Add Jenkins GPG key
@@ -40,12 +41,14 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 # Update and install Jenkins
 sudo apt update
 sudo apt install jenkins -y
+
 ▶️ Step 4: Start Jenkins
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
 Check status:
 
 sudo systemctl status jenkins
+
 🌐 Step 5: Open Jenkins in Your Browser
 Visit:
 
