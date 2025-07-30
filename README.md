@@ -21,12 +21,12 @@ This guide walks you through installing **Jenkins** on an **Ubuntu-based EC2 ins
 ```bash
 ssh -i your-key.pem ubuntu@your-ec2-public-ip
 Replace your-key.pem and your-ec2-public-ip with your actual key and instance IP.
-
+```
 ☕ Step 2: Install Java (Jenkins requirement)
-
+```bash
 sudo apt update
 sudo apt install openjdk-11-jdk -y
-
+```
 📦 Step 3: Install Jenkins
 
 # Add Jenkins GPG key
@@ -68,9 +68,3 @@ Create admin user
 
 Start building!
 
-🎯 Optional Next Steps
-Configure HTTPS with Nginx + Let's Encrypt
-
-Use Jenkins pipelines with GitHub/GitLab
-
-Add build/test automation
