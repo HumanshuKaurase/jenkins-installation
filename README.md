@@ -46,8 +46,9 @@ sudo apt install jenkins -y
 ```bash
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
+```
 Check status:
-
+```bash
 sudo systemctl status jenkins
 ```
 🌐 Step 5: Open Jenkins in Your Browser
